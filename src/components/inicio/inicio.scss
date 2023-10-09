@@ -2,11 +2,35 @@
     display: flex;
     position: absolute;
     left: -70px;
-    top: 35vh;
+    top: 30vh;
 }
 
 .profile-desc{
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.buttons-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+.button-cv{
+    background-color: #1FA790 !important;
+    border-color: #1FA790 !important;
+}
+.material-symbols-outlined{
+    font-size: 16px !important;
+}
+.btn-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+p{
+    margin-bottom: 0 !important;
 }

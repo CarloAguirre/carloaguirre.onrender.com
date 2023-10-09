@@ -47,7 +47,7 @@
 .inicio-container{
   display: grid;
   grid-template-areas: 'aside main navBar';
-  grid-template-columns: 1fr 3.5fr .5fr;
+  grid-template-columns: 1.3fr 3.5fr .5fr;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
@@ -71,6 +71,12 @@
   img{
       max-width: 300px;
 
+  }
+  .bg-image{
+    scale: .7;
+    position: absolute;
+    top: -3rem;
+    right: -17rem;
   }
 
 }
