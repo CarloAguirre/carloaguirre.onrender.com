@@ -16,8 +16,8 @@ export const NavBar = () => {
                 home
               </span>
             </NavLink>
-            <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/productos">
-              <span class="material-symbols-outlined" title='Estudios'>
+            <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/estudios">
+              <span class="material-symbols-outlined" title='Formacion'>
                 school
               </span>
             </NavLink>

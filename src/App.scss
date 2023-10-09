@@ -37,9 +37,6 @@
   }
 }
 
-.aside{
-  grid-area: aside;
-}
 .main{
   grid-area: main;
 }
@@ -58,7 +55,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: var(--main-height, 100vh);
 }
 .main{
   grid-area: main;
@@ -82,4 +80,35 @@
 }
 .navBar{
   grid-area: navBar;
+}
+
+/* En tu archivo de estilos (App.scss) */
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.aside-container {
+  // width: 250px;
+  background-color: #1FA790;
+  position: fixed;
+  // height: 100vh;
+}
+
+.main-container {
+  margin-left: 250px; /* Ancho del SideBar */
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Permitir desplazamiento vertical en el área principal */
+}
+
+.navBar-container {
+  position: fixed;
+  right: 0;
 }
