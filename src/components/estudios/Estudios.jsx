@@ -28,6 +28,15 @@ export const Estudios = () => {
             <br />
             <br />
             <div>
+                <h4>Backend con Node y Express</h4>
+                <h5>Desafio Latam</h5>
+                <p>ago. 2023</p>
+                <Button variant="outline-secondary" className='btn' href='https://desafiosdev.s3.amazonaws.com/uploads/certification/image/24937/aprobacion-modulos-cursos-b-learning-backend-con-node-y-express-g29-12887.png' target='_blank'><div className='btn-custom'>Mostrar credencial<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button>
+            </div><br />
+            <hr /><br />
+            <div>
                 <h4>SQL</h4>
                 <h5>Desafio Latam</h5>
                 <p>jun. 2023</p>

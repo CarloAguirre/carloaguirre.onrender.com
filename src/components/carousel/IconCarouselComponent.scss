@@ -21,10 +21,10 @@
     transform: translateZ(-30vw) rotateY(0);
     animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
   }
-  
-  .icon-cards__content.step-animation {
-    animation: carousel 8s infinite steps(1) forwards;
-  }
+
+.icon-cards__content.step-animation:hover{
+    animation: forwards;
+}
   
   .icon-cards__item {
     position: absolute;
@@ -64,7 +64,8 @@
   }
   
   .checkbox {
-    position: relative;
+    display: flex;
+    justify-content: center;
     margin-top: 2rem;
     font-size: 0.9rem;
     font-weight: bold;
@@ -116,7 +117,9 @@
       transform: rotate(45deg) scale(1);
     }
   }
-  
+  .checked{
+    background: #f47956;
+  }
   @keyframes carousel {
     0%,
     17.5% {
