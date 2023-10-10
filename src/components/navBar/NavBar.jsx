@@ -12,9 +12,8 @@ export const NavBar = () => {
   }
   return (
     <div className='navbar-wrapper'>
-      <img src="main_image.png" alt="background image" className='bg-image'/>
       <Navbar expand="md">
-        <Container className="space-between ">
+        <Container className="space-between " >
           {/* <Navbar.Toggle aria-controls="navbar-collapse" />
           <Navbar.Collapse id="navbar-collapse" className="justify-content-end"> */}
           <Nav className="flex-column ml-auto navBar-container"> 
@@ -28,7 +27,7 @@ export const NavBar = () => {
                 school
               </span>
             </NavLink>
-            <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/mi-perfil" onClick={onMainSwitch}>
+            <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/portafolio" onClick={onMainSwitch}>
               <span className="material-symbols-outlined" title='Portafolio'>
                 business_center
               </span>

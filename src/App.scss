@@ -46,9 +46,19 @@
   grid-template-areas: 'aside main navBar';
   grid-template-columns: 1.3fr 3.5fr .5fr;
   min-height: 100vh;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
+  position: relative;
 }
+.bg-image{
+  scale: .7;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -30px;
+  margin-top: -15px;
+}
+
 .aside{
   grid-area: aside;
   background-color: #1FA790;
@@ -73,25 +83,17 @@
 }
 .navBar{
   grid-area: navBar;
+  position: fixed;
+  top: 45%;
 }
-
-/* En tu archivo de estilos (App.scss) */
 
 body, html {
   margin: 0;
   padding: 0;
 }
 
-.app-container {
-  display: flex;
-  min-height: 100vh;
-}
-
 .aside-container {
-  // width: 250px;
   background-color: #1FA790;
-  position: fixed;
-  // height: 100vh;
 }
 
 .main-container {

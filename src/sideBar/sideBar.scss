@@ -7,7 +7,19 @@
     background-color: #1FA790;
     position: fixed;
     img{
-        position: absolute;
+        position: fixed;
         top: 40%;
+        animation: mover 3s infinite; /* Nombre de la animación, duración y repetición infinita */
     }
+    @keyframes mover {
+        0% {
+          transform: translateY(0); /* Posición inicial: no se mueve verticalmente */
+        }
+        50% {
+          transform: translateY(-15px); /* Se mueve hacia arriba 15px a la mitad de la animación */
+        }
+        100% {
+          transform: translateY(0); /* Vuelve a la posición inicial al final de la animación */
+        }
+      }
 }

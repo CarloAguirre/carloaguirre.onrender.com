@@ -6,3 +6,19 @@
         color: rgb(121, 122, 134);
     }
 }
+.btn{
+    border-radius: 30px !important;
+    margin-top: 10px;
+    span{
+        scale: 1.2
+    }
+}
+Button:hover{
+    color: white;
+}
+// Button{
+//     .btn-custom{
+//         font-size: small;
+//         font-weight: 600;
+//     }
+// }

@@ -6,6 +6,7 @@ import { NavBar } from './components/navBar/NavBar'
 import { InicioView } from './views/InicioView';
 import { EstudiosViews } from './views/EstudiosViews';
 import { usePortafolio } from './context';
+import { CarouselView } from './views/Carousel';
 
 export const App = () => {
   const mainRef = useRef(null);
@@ -24,19 +25,22 @@ export const App = () => {
     };
   }, [mainSwitch]);
   return (
+    <>
     <div className='inicio-container'>
+        <img src="main_image.png" alt="background image" className='bg-image'/>
         <div className='aside'><SideBar /></div>
         <div className='main' ref={mainRef}>
           <Routes>
             <Route path='/' element={<InicioView />} />
             <Route path='/estudios' element={<EstudiosViews/>} />
+            <Route path='/portafolio' element={<CarouselView/>} />
           </Routes>
-  
         </div>
         <div className='navBar'>
         <NavBar />
         </div>
     </div>
+    </>
     
   )
 }
