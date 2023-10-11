@@ -6,7 +6,7 @@ import { NavBar } from './components/navBar/NavBar'
 import { InicioView } from './views/InicioView';
 import { EstudiosViews } from './views/EstudiosViews';
 import { usePortafolio } from './context';
-import { CarouselView } from './views/Carousel';
+import { PortafolioView } from './views/PortafolioView';
 
 export const App = () => {
   const mainRef = useRef(null);
@@ -33,7 +33,7 @@ export const App = () => {
           <Routes>
             <Route path='/' element={<InicioView />} />
             <Route path='/estudios' element={<EstudiosViews/>} />
-            <Route path='/portafolio' element={<CarouselView/>} />
+            <Route path='/portafolio' element={<PortafolioView/>} />
           </Routes>
         </div>
         <div className='navBar'>

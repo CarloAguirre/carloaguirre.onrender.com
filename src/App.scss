@@ -37,10 +37,6 @@
   }
 }
 
-.main{
-  grid-area: main;
-}
-
 .inicio-container{
   display: grid;
   grid-template-areas: 'aside main navBar';
@@ -106,4 +102,8 @@ body, html {
 .navBar-container {
   position: fixed;
   right: 0;
+}
+.portafolioView-container{
+  display: flex;
+  flex-direction: column;
 }
