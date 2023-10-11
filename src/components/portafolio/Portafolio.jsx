@@ -14,17 +14,23 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
-                <p>React.js (react-router-dom), Node.js (express), PostgreSQL, Bootstrap</p>
+                <p>React.js (react-router-dom), Node.js (Express), PostgreSQL, Bootstrap</p>
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
                 <p>Aplicacion realizada en React.js, consistente en un
                   Marketplace de consolas de videojuegos retro. <span
                         ><a
+                        href="https://github.com/CarloAguirre/examen-desafio_latam"
+                        target="_blank"
+                        ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
+                          ver codigo (frontend)
+                        </button></a
+                      ><a
                           href="https://github.com/CarloAguirre/nodePG-server"
                           target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3">
-                            ver codigo
+                          ><button variant="outline-secondary" className='btn' type="button" class="btn btn-primary btn-sm mb-3 ms-2 button-cv">
+                            ver codigo (backend)
                           </button></a
                         ></span
                       ></p>
@@ -43,7 +49,7 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
-                <p>React.js (react-router-dom), Node.js (express), MongoDB, Bootstrap</p>
+                <p>React.js (react-router-dom), Node.js (Express), MongoDB, Bootstrap</p>
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
@@ -51,13 +57,13 @@ export const Portafolio = () => {
                         ><a
                           href="https://github.com/CarloAguirre/colabs-dashboard"
                           target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3">
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv button-cv">
                             ver codigo (frontend)
                           </button></a
                         ><a
                           href="https://github.com/CarloAguirre/crud-avanzado"
                           target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3 ms-2">
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 ms-2 button-cv">
                             ver codigo (backend)
                           </button></a
                         ></span
@@ -72,28 +78,28 @@ export const Portafolio = () => {
 
             <div className='desarrollo'>
             <div>
-                <h4>Marketplace App</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1694277945/card_1_ggnfsg.webp" alt="" />
+                <h4>Pagina de arriendos tipo Airbnb</h4>
+                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1671664998/card-5_iriowi.webp" alt="" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
-                <p>React.js, Node.js, PostgreSQL, Bootstrap</p>
+                <p>HTML, CSS, Bootstrap</p>
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p>Aplicacion realizada en React.js, consistente en un
-                  Marketplace de consolas de videojuegos retro. <span
+                <p> layout de sitio web para arriendo vacacional de
+                      propiedades, desarrollado en HTML, CSSS y Bootstrap. <span
                         ><a
-                          href="https://github.com/CarloAguirre/nodePG-server"
+                          href="https://github.com/CarloAguirre/pagina-arriendos-bootstrap"
                           target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3">
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
                             ver codigo
                           </button></a
                         ></span
                       ></p>
             </div>
             <div className='btn-container'>
-                <Button variant="outline-secondary" className='btn' href='https://desafiosdev.s3.amazonaws.com/uploads/certification/image/24937/aprobacion-modulos-cursos-b-learning-backend-con-node-y-express-g29-12887.png' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
+                <Button variant="outline-secondary" className='btn' href='https://carloaguirre.github.io/pagina-arriendos-bootstrap/' target='_blank'><div className='btn-custom'>ver sitio<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
             </div><br />
@@ -101,28 +107,28 @@ export const Portafolio = () => {
 
             <div className='desarrollo'>
             <div>
-                <h4>Marketplace App</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1694277945/card_1_ggnfsg.webp" alt="" />
+                <h4>SPA React Pizza-App (layout)</h4>
+                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1683297482/card-6_db9xwy.webp" alt="" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
-                <p>React.js, Node.js, PostgreSQL, Bootstrap</p>
+                <p>React.js (react-router-dom), JavaScript, HTML, CSS</p>
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p>Aplicacion realizada en React.js, consistente en un
-                  Marketplace de consolas de videojuegos retro. <span
+                <p>Single Page Aplication realizada en React para pizzeria.
+                       Manejo de estados mediante React Context. <span
                         ><a
-                          href="https://github.com/CarloAguirre/nodePG-server"
+                          href="https://github.com/CarloAguirre/SPA_useContext-useNavigate-pizzaApp"
                           target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3">
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
                             ver codigo
                           </button></a
                         ></span
                       ></p>
             </div>
             <div className='btn-container'>
-                <Button variant="outline-secondary" className='btn' href='https://desafiosdev.s3.amazonaws.com/uploads/certification/image/24937/aprobacion-modulos-cursos-b-learning-backend-con-node-y-express-g29-12887.png' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
+                <Button variant="outline-secondary" className='btn' href='https://pizza-app-reactbuild.netlify.app/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
             </div><br />
@@ -130,28 +136,28 @@ export const Portafolio = () => {
 
             <div className='desarrollo'>
             <div>
-                <h4>Marketplace App</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1694277945/card_1_ggnfsg.webp" alt="" />
+                <h4>TODO list Dashboard</h4>
+                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1683298665/todo_app_ia1iyu.webp" alt="" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
-                <p>React.js, Node.js, PostgreSQL, Bootstrap</p>
+                <p>Vanilla JavaScript, HTML, CSS</p>
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p>Aplicacion realizada en React.js, consistente en un
-                  Marketplace de consolas de videojuegos retro. <span
+                <p>Pagina realizada en JavasScript.
+                      Permite la creacion, modificacion y eliminacion de registros. <span
                         ><a
-                          href="https://github.com/CarloAguirre/nodePG-server"
+                          href="https://github.com/CarloAguirre/javascript_exercises_04"
                           target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3">
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
                             ver codigo
                           </button></a
                         ></span
                       ></p>
             </div>
             <div className='btn-container'>
-                <Button variant="outline-secondary" className='btn' href='https://desafiosdev.s3.amazonaws.com/uploads/certification/image/24937/aprobacion-modulos-cursos-b-learning-backend-con-node-y-express-g29-12887.png' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
+                <Button variant="outline-secondary" className='btn' href='https://carloaguirre.github.io/javascript_exercises_04/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
             </div><br />
@@ -159,28 +165,28 @@ export const Portafolio = () => {
 
             <div className='desarrollo'>
             <div>
-                <h4>Marketplace App</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1694277945/card_1_ggnfsg.webp" alt="" />
+                <h4>Feriado App</h4>
+                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1683299458/feriado_app_qvhd0p.webp" alt="" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
-                <p>React.js, Node.js, PostgreSQL, Bootstrap</p>
+                <p>React.js, Bootstrap, HTML, CSS</p>
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p>Aplicacion realizada en React.js, consistente en un
-                  Marketplace de consolas de videojuegos retro. <span
+                <p>Aplicación realizada en React. Permite 
+                  la obtencion de feriados mediante conexión con API. <span
                         ><a
-                          href="https://github.com/CarloAguirre/nodePG-server"
+                          href="https://github.com/CarloAguirre/feriados-app"
                           target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3">
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
                             ver codigo
                           </button></a
                         ></span
                       ></p>
             </div>
             <div className='btn-container'>
-                <Button variant="outline-secondary" className='btn' href='https://desafiosdev.s3.amazonaws.com/uploads/certification/image/24937/aprobacion-modulos-cursos-b-learning-backend-con-node-y-express-g29-12887.png' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
+                <Button variant="outline-secondary" className='btn' href='https://calendar-appreact.netlify.app/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
             </div><br />

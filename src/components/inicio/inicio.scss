@@ -22,6 +22,10 @@
     background-color: #1FA790 !important;
     border-color: #1FA790 !important;
 }
+.button-cv:hover{
+    transition: ease .3s;
+    opacity: .8;
+}
 .material-symbols-outlined{
     font-size: 16px !important;
 }

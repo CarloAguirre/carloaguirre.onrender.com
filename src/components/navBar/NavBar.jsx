@@ -32,14 +32,12 @@ export const NavBar = () => {
                 business_center
               </span>
             </NavLink>      
-            <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/iniciar-sesion" onClick={onMainSwitch}>
+            <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/curriculum" onClick={onMainSwitch}>
               <span className="material-symbols-outlined" title='Historial laboral'>
                 badge
               </span>
             </NavLink> 
-            {/* <NavLink className={({isActive})=>(isActive ? "navLink" : "navLink")} >Cerrar Sesión</NavLink>                   */}
           </Nav>
-          {/* </Navbar.Collapse> */}
         </Container>
       </Navbar>
     </div>
