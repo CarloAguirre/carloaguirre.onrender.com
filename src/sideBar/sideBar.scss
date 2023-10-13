@@ -10,8 +10,9 @@
         position: fixed;
         top: 40%;
         animation: mover 3s infinite; /* Nombre de la animación, duración y repetición infinita */
-    }
-    @keyframes mover {
+        
+      }
+      @keyframes mover {
         0% {
           transform: translateY(0); /* Posición inicial: no se mueve verticalmente */
         }
@@ -22,4 +23,20 @@
           transform: translateY(0); /* Vuelve a la posición inicial al final de la animación */
         }
       }
-}
+    }
+    .icons-wrapper{
+      display: flex;
+      align-items: flex-end;
+      gap: 1.5vw;
+      position: fixed;
+      top: 95%;
+      // left: 18%;
+      i{
+        color: white;
+        scale: 1.3;
+      }
+      i:hover{
+        transition: ease 0.2s;
+        scale: 1.5;
+      }
+    }
