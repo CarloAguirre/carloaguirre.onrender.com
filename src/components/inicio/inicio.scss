@@ -21,6 +21,10 @@
 .button-cv{
     background-color: #1FA790 !important;
     border-color: #1FA790 !important;
+    a, p, span{
+        text-decoration: none !important;
+        color: white;
+    }
 }
 .button-cv:hover{
     transition: ease .3s;
@@ -38,3 +42,4 @@
 p{
     margin-bottom: 0 !important;
 }
+
