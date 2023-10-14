@@ -51,7 +51,7 @@
     grid-template-areas: 'navBar'
                           'main' 
                           'aside';
-    grid-template-columns: none;
+    grid-template-rows: none;
     min-height: 100vh;
     align-items: center;
   }
@@ -90,6 +90,21 @@
     min-height: 100vh;
   }  
 }
+@media (max-height: 800px){
+   .aside{
+    margin-top: 20vh;
+   }
+}
+@media (max-height: 600px){
+  .aside{
+   margin-top: 40vh;
+  }
+}
+@media (max-height: 500px){
+  .aside{
+   margin-top: 60vh;
+  }
+}
 .main{
   grid-area: main;
   display: flex;
@@ -106,7 +121,7 @@
   align-items: center;
   grid-area: navBar;
   background-color: #1FA790;
-  height: 7vh;
+  // height: 7vh;
 }
 @media (min-width: 1281px){
   .navBar{

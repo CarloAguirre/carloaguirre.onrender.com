@@ -7,17 +7,22 @@
 @media (max-width: 1280px){
     .profile-container{
         min-height: 83vh;
-        left: 0%;
         top: 0%;
+        left: 0%;
+        right: 0%;
+        // position: relative !important;
         justify-content: center;
         align-items: center;
+
     }
 }
 @media (max-width: 800px){
    .profile-container{
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    padding-left: -10vw;
+    padding-right: -10vw;
     img{
      width: 250px;
     }
