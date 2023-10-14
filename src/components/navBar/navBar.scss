@@ -1,15 +1,24 @@
-.navBar-container{
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
-    padding: 10px !important;
-    margin-left: 6rem;
-    margin-right: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,.12);
-    background-color: white;
+@media (min-width: 1281px){
+  .navBar-container{
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center;
+      align-items: center;
+      padding: 10px !important;
+      margin-left: 6rem;
+      margin-right: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,.12);
+      background-color: white;
+      position: fixed;
+      right: 0;
+  }
+  .navLink{
+    margin: 10px;
+    color: rgb(121, 122, 134) !important;
+  }
 }
+
 .active-nav{
     color: #cb7a09;
     margin: 10px;
@@ -22,7 +31,7 @@
   }
   .navLink{
     margin: 10px;
-    color: rgb(121, 122, 134);
+    color: whitesmoke;
   }
   .navLink:hover{
     color: rgb(248, 217, 176);

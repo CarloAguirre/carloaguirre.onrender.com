@@ -228,7 +228,6 @@
   }
 
   .logos-wrapper{
-    width: 65.96vw;
     height: 180px;
     display: flex;
     justify-content: space-around;
@@ -244,12 +243,24 @@
     content: "";
     position: absolute;
     top: 0;
-    right: -9.44vw; /* Cubrirá 34.04vw hacia la derecha */
+    right: -9.44vw; /* Cubrirá 9.44vw hacia la derecha */
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.1);
     z-index: -1; /* Coloca el pseudoelemento detrás del contenido principal */
 }
+// @media (min-width: 1280px){
+//   .logos-wrapper::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     right: -9.44vw; /* Cubrirá 9.44vw hacia la derecha */
+//     bottom: 0;
+//     left: 0;
+//     background-color: rgba(0, 0, 0, 0.1);
+//     z-index: -1; /* Coloca el pseudoelemento detrás del contenido principal */
+// }
+// }
 
   .logo_buenaaventura{
     max-height: 70px;

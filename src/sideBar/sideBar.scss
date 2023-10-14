@@ -40,3 +40,18 @@
         scale: 1.5;
       }
     }
+@media (max-width: 1280px){
+  .sideBar-container{
+    img{
+      display: none;
+    }
+  }
+  .icons-wrapper{
+    gap: 3.5vw;
+   }
+}
+@media (max-width: 800px ){
+  .icons-wrapper{
+   gap: 5.5vw;
+  }
+}

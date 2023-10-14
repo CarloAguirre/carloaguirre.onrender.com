@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap'
 
 
 export const Inicio = () => {
+  const mailTo = `mailto:carlo_aguirre@outlook.cl`;
   return (
     <div>
         <div className='profile-container'>
@@ -23,9 +24,16 @@ export const Inicio = () => {
                   </a>
                 </Button>
 
-                  <Button variant='secondary'><div className='btn-custom'><p>Contactar</p> <span class="material-symbols-outlined ms-2">
-                  send
-                  </span></div></Button>
+                <Button variant='secondary button-contact'>
+                  <a href={mailTo}>
+                    <div className='btn-custom'>
+                      <p>Contactar</p>
+                      <span class="material-symbols-outlined ms-2">
+                        send
+                      </span>
+                    </div>
+                  </a>
+                </Button>
                 </div>
             </div>
         </div>

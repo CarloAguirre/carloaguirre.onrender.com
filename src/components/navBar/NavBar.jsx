@@ -12,11 +12,11 @@ export const NavBar = () => {
   }
   return (
     <div className='navbar-wrapper'>
-      <Navbar expand="md">
+      <Navbar>
         <Container className="space-between " >
           {/* <Navbar.Toggle aria-controls="navbar-collapse" />
           <Navbar.Collapse id="navbar-collapse" className="justify-content-end"> */}
-          <Nav className="flex-column ml-auto navBar-container"> 
+          <Nav className="navBar-container"> 
             <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/" onClick={onMainSwitch} >
               <span className="material-symbols-outlined" title='Inicio'>
                 home
