@@ -95,16 +95,7 @@
     margin-top: 20vh;
    }
 }
-@media (max-height: 600px){
-  .aside{
-   margin-top: 40vh;
-  }
-}
-@media (max-height: 500px){
-  .aside{
-   margin-top: 60vh;
-  }
-}
+
 .main{
   grid-area: main;
   display: flex;
