@@ -21,6 +21,13 @@
         text-align: center;
     }
 }
+@media (max-width: 380px){
+    .desarrollo{
+        img{
+            max-width: 250px !important;
+        }
+    }
+}
 @media (max-width: 1482px){
    .desarrollo{
     max-height: 280px;
