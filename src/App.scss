@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
@@ -90,11 +91,36 @@
     min-height: 100vh;
   }  
 }
-@media (max-height: 800px){
-   .aside{
-    margin-top: 20vh;
-   }
-}
+// @media (max-height: 800px){
+//    .aside{
+//     margin-top: 20vh;
+//    }
+// }
+// @media (max-height: 580px){
+//   .aside{
+//    margin-top: 30vh;
+//   }
+// }
+// @media (max-height: 530px){
+//   .aside{
+//    margin-top: 40vh;
+//   }
+// }
+// @media (max-height: 480px){
+//   .aside{
+//    margin-top: 60vh;
+//   }
+// }
+// @media (max-height: 415px){
+//   .aside{
+//    margin-top: 80vh;
+//   }
+// }
+// @media (max-height: 360px){
+//   .aside{
+//    margin-top: 100vh;
+//   }
+// }
 
 .main{
   grid-area: main;
@@ -117,6 +143,7 @@
 @media (min-width: 1281px){
   .navBar{
     position: fixed;
+    background-color: transparent;
     top: 45%;
   }
 }
