@@ -82,6 +82,7 @@ export const Curriculum = () => {
             </div><br />
             <hr /><br />
         </div>
+        
         <div>
             <h3>Administración y atención de clientes</h3>
             <br />
@@ -101,6 +102,27 @@ export const Curriculum = () => {
                 <p>-Atención esporadica de clientes</p>
                 <br />
                 <p>mar. 2018 - nov. 2019 · 1 año y 8 meses</p>
+            </div><br />
+            <hr /><br />
+        </div>
+        <div>
+            <h3>Técnico Agrícola</h3>
+            <br />
+            <br />
+            <div>
+                <h4>Autónomo</h4>
+                <h5>Labores agricolas varias.</h5>
+                <br /> 
+                <p>FUNCIONES DEL CARGO:</p>
+                <br />
+                <p>-Implementación de invernadero hidropónico </p>
+                <br /> 
+                <p>-Encargado de plantación de frutales (paltos, olivos
+                    y almendros), producción de Humus y Gallinero de
+                    Alta Postura. </p>
+                <br />
+                <br />
+                <p>jul. 2016 - ene. 2022 · 5 años y 6 meses</p>
             </div><br />
             <hr /><br />
         </div>
