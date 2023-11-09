@@ -5,7 +5,7 @@ export const Curriculum = () => {
     <div className='curriculum-wrapper'>
         <h1 className='mb-5'>Historial Laboral</h1>
         <div>
-            <h3>Desarrollo web y administración</h3>
+            <h3>Administrador y soporte IT</h3>
             <br />
             <br />
             <div>
@@ -14,18 +14,20 @@ export const Curriculum = () => {
                 <br /> 
                 <p>FUNCIONES DEL CARGO:</p>
                 <br />
-                <p>-Desarrollo y gestión de página web, redes sociales y publicidad.</p>
+                <p>-Desarrollo de página web</p>
                 <br />
-                <p>-Administración de reservas y base de datos en CMS WordPress.</p>
+                <p>-Gestión de redes sociales y publicidad.</p>
                 <br />
-                <p>-Gestion de marketing en redes sociales (Google Adwords, Facebook Business).</p>
+                <p>-Administración de reservas y base de datos</p>
+                <br />
+                <p>-Soporte tecnico</p>
                 <br />
                 <p>ene. 2022 - actualidad</p>
             </div><br />
             <hr /><br />
         </div>
         <div>
-            <h3>Desarrollador de aplicacion web</h3>
+            <h3>Desarrollador web y API REST</h3>
             <br />
             <br />
             <div>
@@ -34,16 +36,22 @@ export const Curriculum = () => {
                 <br /> 
                 <p>FUNCIONES DEL CARGO:</p>
                 <br />
-                <p>-Modal para arrastrar y soltar ordenes en PDF (extracción automatizada de información relevante)</p>
+                <p>-Levantamiento de necesidades de desarrollo</p>
                 <br /> 
-                <p>-Autogeneración de tablas, calendarios, gráficos y totales descargables en formato csv/excel, png, svg.</p>
+                <p>-Diseño de vistas y contratos de API REST</p>
+                <br />
+                <p>-Desarrollo de aplicación web y servidor</p>
+                <br />
+                <p>-Despliegues y presentación a cliente</p>
+                <br />
+                <p>-Desarrollo ágil y correcciones</p>
                 <br />
                 <p>may. 2023 - jul. 2023 · 3 meses</p>
             </div><br />
             <hr /><br />
         </div>
         <div>
-            <h3>Desarrollador de aplicacion web</h3>
+            <h3>Desarrollador web y API REST</h3>
             <br />
             <br />
             <div>
@@ -52,11 +60,15 @@ export const Curriculum = () => {
                 <br /> 
                 <p>FUNCIONES DEL CARGO:</p>
                 <br />
-                <p>-Diseño y Realización de aplicación web en React.Js </p>
+                <p>-Levantamiento de necesidades de desarrollo</p>
                 <br /> 
-                <p>-Realización de servidor web en Node.Js</p>
+                <p>-Diseño de vistas y contratos de API REST</p>
                 <br />
-                <p>-Despliegue de servidor, base de datos y aplicación en hosting.</p>
+                <p>-Desarrollo de aplicación web y servidor</p>
+                <br />
+                <p>-Despliegues y presentación a cliente</p>
+                <br />
+                <p>-Desarrollo ágil y correcciones</p>
                 <br />
                 <p>sept. 2022 - abr. 2023 · 8 meses</p>
             </div><br />
@@ -95,9 +107,7 @@ export const Curriculum = () => {
                 <br />
                 <p>-Implementacion de software 'Punto de venta' </p>
                 <br /> 
-                <p>-Administración fizcal y de personal</p>
-                <br />
-                <p>-Control de stock y labores relacionadas</p>
+                <p>-Administración de personal y fiscal</p>
                 <br />
                 <p>-Atención esporadica de clientes</p>
                 <br />
@@ -119,7 +129,7 @@ export const Curriculum = () => {
                 <br /> 
                 <p>-Encargado de plantación de frutales (paltos, olivos
                     y almendros), producción de Humus y Gallinero de
-                    Alta Postura. </p>
+                    Alta Postura </p>
                 <br />
                 <br />
                 <p>jul. 2016 - ene. 2022 · 5 años y 6 meses</p>
