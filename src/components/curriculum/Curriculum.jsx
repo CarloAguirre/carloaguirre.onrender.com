@@ -5,6 +5,26 @@ export const Curriculum = () => {
     <div className='curriculum-wrapper'>
         <h1 className='mb-5'>Historial Laboral</h1>
         <div>
+            <h3>Instructor FullStack Developer</h3>
+            <br />
+            <br />
+            <div>
+                <h4>Desafio Latam · Jornada parcial</h4>
+                <h5>Parte del equipo docente en Academia de Programacíon</h5>
+                <br /> 
+                <p>FUNCIONES DEL CARGO:</p>
+                <br />
+                <p>-Dictado de clases</p>
+                <br />
+                <p>-Revision de codigos</p>
+                <br />
+                <p>-Apoyo técnico en proyecto final</p>
+                <br />
+                <p>nov. 2023 - actualidad</p>
+            </div><br />
+            <hr /><br />
+        </div>
+        <div>
             <h3>Administrador y soporte IT</h3>
             <br />
             <br />
