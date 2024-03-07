@@ -10,6 +10,12 @@ export const Estudios = () => {
             <br />
             <br />
             <div>
+                <h4>Duoc UC</h4>
+                <h5>Analista Programador Computacional</h5>
+                <p>mar. 2024 - en curso</p>
+            </div><br />
+            <hr /><br />
+            <div>
                 <h4>Universidad Catolica del Norte</h4>
                 <h5>Ingenieria Comercial</h5>
                 <p>mar. 2013 - nov. 2013</p>
