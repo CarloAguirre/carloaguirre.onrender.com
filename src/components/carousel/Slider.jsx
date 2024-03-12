@@ -19,7 +19,8 @@ const IconCarouselComponent = () => {
     <div className='logo_buenaaventura'>
       <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1696955157/logo_1_-_copia_iewgq1.webp" alt="logo_buenaaventura" />
       <p>BuenaAventura</p>
-    </div>   
+    </div>  
+    <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1710264932/hireline_logo_adl_sqivps.webp" alt="logo_cabra-del-valle" style={{padding: '10px'}}/>
   </div>
   <div className="checkbox">
         <input
