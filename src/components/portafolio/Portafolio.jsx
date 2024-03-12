@@ -18,7 +18,7 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p>Aplicacion realizada en React.js, consistente en un
+                <p>Aplicacion realizada en React.js + Node, consistente en un
                   Marketplace de consolas de videojuegos retro. <span
                         ><a
                         href="https://github.com/CarloAguirre/examen-desafio_latam"
@@ -58,19 +58,71 @@ export const Portafolio = () => {
                           href="https://github.com/CarloAguirre/colabs-dashboard"
                           target="_blank"
                           ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv button-cv">
-                            ver codigo (frontend)
-                          </button></a
-                        ><a
-                          href="https://github.com/CarloAguirre/crud-avanzado"
-                          target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3 ms-2 button-cv">
-                            ver codigo (backend)
+                            ver codigo
                           </button></a
                         ></span
                       ></p>
             </div>
             <div className='btn-container'>
                 <Button variant="outline-secondary" className='btn' href='https://admin-dashboard-reactbuild.netlify.app/' target='_blank'><div className='btn-custom'>ver layout<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button></div>
+            </div><br />
+            <hr /><br />
+
+            
+            <div className='desarrollo'>
+            <div>
+                <h4>SPA React Pizza-App (layout)</h4>
+                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1683297482/card-6_db9xwy.webp" alt="" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>React.js (react-router-dom), JavaScript, HTML, CSS</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p>Single Page Aplication realizada en React para pizzeria.
+                       Manejo de estados mediante React Context. <span
+                        ><a
+                          href="https://github.com/CarloAguirre/SPA_useContext-useNavigate-pizzaApp"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
+                            ver codigo
+                          </button></a
+                        ></span
+                      ></p>
+            </div>
+            <div className='btn-container'>
+                <Button variant="outline-secondary" className='btn' href='https://pizza-app-reactbuild.netlify.app/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button></div>
+            </div><br />
+            <hr /><br />
+
+            <div className='desarrollo'>
+            <div>
+                <h4>Galería de imagenes</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1710263542/petgallery_sagi9p.webp" alt="" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>HTML5, CSS, Flexbox</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p>Sitio web desarrollado con flexbox para el despliegue de galerias de imagenes.<span
+                        ><a
+                          href="https://github.com/CarloAguirre/pet-gallery"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv button-cv">
+                            ver codigo
+                          </button></a
+                        ></span
+                      ></p>
+            </div>
+            <div className='btn-container'>
+                <Button variant="outline-secondary" className='btn' href='https://petgallery.netlify.app/' target='_blank'><div className='btn-custom'>ver layout<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
             </div><br />
@@ -105,34 +157,6 @@ export const Portafolio = () => {
             </div><br />
             <hr /><br />
 
-            <div className='desarrollo'>
-            <div>
-                <h4>SPA React Pizza-App (layout)</h4>
-                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1683297482/card-6_db9xwy.webp" alt="" />
-            </div>
-            <div className='portafolio-descripciones tecnologias-wrapper'>
-                <h5>Tecnologias</h5>
-                <p>React.js (react-router-dom), JavaScript, HTML, CSS</p>
-            </div>
-            <div className='portafolio-descripciones'>
-                <h5>Descripción</h5>
-                <p>Single Page Aplication realizada en React para pizzeria.
-                       Manejo de estados mediante React Context. <span
-                        ><a
-                          href="https://github.com/CarloAguirre/SPA_useContext-useNavigate-pizzaApp"
-                          target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
-                            ver codigo
-                          </button></a
-                        ></span
-                      ></p>
-            </div>
-            <div className='btn-container'>
-                <Button variant="outline-secondary" className='btn' href='https://pizza-app-reactbuild.netlify.app/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
-                 open_in_new
-                  </span></div></Button></div>
-            </div><br />
-            <hr /><br />
 
             <div className='desarrollo'>
             <div>
