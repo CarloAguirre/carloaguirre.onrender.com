@@ -19,6 +19,21 @@
   }
 }
 
+@media (max-width: 1281px) {
+  .navBar-container {
+    justify-content: space-around !important;
+    width: 100vw;
+    margin-right: -17vw;
+  }
+
+  // .material-symbols-outlined {
+  //   display: flex !important;
+  //   justify-content: center !important;
+  //   align-items: center !important;
+  //   text-decoration: none !important; /* Quita el subrayado */
+  // }
+
+}
 .active-nav{
     color: #cb7a09;
     margin: 10px;
@@ -39,4 +54,5 @@
 span{
   scale: 1.9;
 }
+
 
