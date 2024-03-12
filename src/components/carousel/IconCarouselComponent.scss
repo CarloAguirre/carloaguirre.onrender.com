@@ -239,11 +239,21 @@
       max-height: 70px;
     }
   }
+  @media (max-width: 470px ){
+    .logos-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Esto crea dos columnas del mismo tamaño */
+      gap: 20px; /* Espacio entre los elementos */
+      justify-content: center; /* Centra los elementos horizontalmente */
+      align-items: center; /* Centra los elementos verticalmente */
+    }
+  }
   @media (max-width: 880px){
     .logos-wrapper{
       img{
         max-width: 100px;
         max-height: 70px;
+        gap: 20px;
       }
     } 
   }

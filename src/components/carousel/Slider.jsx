@@ -14,13 +14,19 @@ const IconCarouselComponent = () => {
   <div className='portafolio-wrapper'>
     <h1 className='h1'>Empresas que me han preferido</h1>
   <div className='logos-wrapper'>
-    <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1670111664/goat_jkfpoi.webp" alt="logo_cabra-del-valle" style={{backgroundColor: '#212529', padding: '10px'}}/>
-    <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1696954807/AGILogo_cw2jea.webp" alt="logo_agi-controls" />
+    <div className='logo_buenaaventura'>
+      <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1670111664/goat_jkfpoi.webp" alt="logo_cabra-del-valle" style={{backgroundColor: '#212529', padding:   '10px'}}/>
+    </div>
+    <div className='logo_buenaaventura'>
+      <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1696954807/AGILogo_cw2jea.webp" alt="logo_agi-controls" />
+    </div>
     <div className='logo_buenaaventura'>
       <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1696955157/logo_1_-_copia_iewgq1.webp" alt="logo_buenaaventura" />
       <p>BuenaAventura</p>
-    </div>  
-    <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1710264932/hireline_logo_adl_sqivps.webp" alt="logo_cabra-del-valle" style={{padding: '10px'}}/>
+    </div> 
+    <div className='logo_buenaaventura'>
+      <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1710264932/hireline_logo_adl_sqivps.webp" alt="logo_cabra-del-valle" style={{padding: '10px'}}/>
+    </div> 
   </div>
   <div className="checkbox">
         <input
