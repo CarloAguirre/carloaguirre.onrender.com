@@ -126,7 +126,7 @@ export const Portafolio = () => {
                  open_in_new
                   </span></div></Button></div>
             </div><br /> */}
-            <hr /><br />
+            {/* <hr /><br /> */}
 
             <div className='desarrollo'>
             <div>
