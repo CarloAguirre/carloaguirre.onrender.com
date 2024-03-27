@@ -20,7 +20,7 @@ export const NavBar = () => {
             <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/" onClick={onMainSwitch} >
               <span className="material-symbols-outlined" title='Inicio'>
                 home
-              </span>
+              </span> 
             </NavLink>
             <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/estudios" onClick={onMainSwitch}>
               <span className="material-symbols-outlined" title='Formacion'>

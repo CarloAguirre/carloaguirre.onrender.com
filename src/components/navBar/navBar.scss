@@ -22,8 +22,8 @@
 @media (max-width: 1281px) {
   .navBar-container {
     justify-content: space-around !important;
-    width: 100vw;
-    margin-right: -17vw;
+    gap: 1.5rem;
+    // margin-right: -17vw;
   }
 
   // .material-symbols-outlined {

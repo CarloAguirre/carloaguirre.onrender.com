@@ -99,7 +99,7 @@ export const Portafolio = () => {
                   </span></div></Button></div>
             </div><br />
             <hr /><br />
-
+{/* 
             <div className='desarrollo'>
             <div>
                 <h4>Galería de imagenes</h4>
@@ -125,7 +125,7 @@ export const Portafolio = () => {
                 <Button variant="outline-secondary" className='btn' href='https://petgallery.netlify.app/' target='_blank'><div className='btn-custom'>ver layout<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
-            </div><br />
+            </div><br /> */}
             <hr /><br />
 
             <div className='desarrollo'>
@@ -213,6 +213,56 @@ export const Portafolio = () => {
                 <Button variant="outline-secondary" className='btn' href='https://calendar-appreact.netlify.app/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
+            </div><br />
+            <hr /><br />
+
+            <div className='desarrollo'>
+            <div>
+                <h4>Clima API</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1711549471/clima_edxara.webp" alt="" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>Javascript, Node.js</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p>Aplicación de consola que permite 
+                  la obtencion de informacion meteorologica mediante conexión con API. <span
+                        ><a
+                          href="https://github.com/CarloAguirre/aplicacion-clima-peticiones-http"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
+                            ver codigo
+                          </button></a
+                        ></span
+                      ></p>
+            </div>
+            </div><br />
+            <hr /><br />
+
+            <div className='desarrollo'>
+            <div>
+                <h4>Bitacora de tareas</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1711549477/tareas_le2m9l.webp" alt="" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>Javascript, Node.js</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p>Aplicación de consola que permite 
+                  la creacion, listado y borrado de tareas. <span
+                        ><a
+                          href="https://github.com/CarloAguirre/aplicacion-de-consola-bitacora-tareas"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
+                            ver codigo
+                          </button></a
+                        ></span
+                      ></p>
+            </div>
             </div><br />
             <hr /><br />
 
