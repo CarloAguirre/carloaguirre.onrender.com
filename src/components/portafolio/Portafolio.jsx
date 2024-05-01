@@ -53,7 +53,7 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p>Dashboard de administración para control de stock, ventas, compras, etc. Realizado en React. <span
+                <p>Dashboard de administración para control de stock, ventas, compras, etc (disponible también en React). <span
                         ><a
                           href="https://github.com/CarloAguirre/admin-dashboard"
                           target="_blank"
