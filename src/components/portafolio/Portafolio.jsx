@@ -49,13 +49,13 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
-                <p>React.js (react-router-dom), Node.js (Express), MongoDB, Bootstrap</p>
+                <p>HTML, CSS, Javascript (ApexCharts)</p>
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
                 <p>Dashboard de administración para control de stock, ventas, compras, etc. Realizado en React. <span
                         ><a
-                          href="https://github.com/CarloAguirre/colabs-dashboard"
+                          href="https://github.com/CarloAguirre/admin-dashboard"
                           target="_blank"
                           ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv button-cv">
                             ver codigo
@@ -64,7 +64,7 @@ export const Portafolio = () => {
                       ></p>
             </div>
             <div className='btn-container'>
-                <Button variant="outline-secondary" className='btn' href='https://admin-dashboard-reactbuild.netlify.app/' target='_blank'><div className='btn-custom'>ver layout<span class="material-symbols-outlined ms-2">
+                <Button variant="outline-secondary" className='btn' href='https://carloaguirre.github.io/admin-dashboard/index.html' target='_blank'><div className='btn-custom'>ver layout<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
             </div><br />
