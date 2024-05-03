@@ -6,6 +6,39 @@ export const Portafolio = () => {
     <div className='desarrollos-wrapper'>
       <h2 style={{textAlign: 'center'}}>Otros desarrollos</h2>
     <div className='desarrollos-container'>
+    <div className='desarrollo'>
+            <div>
+                <h4>I.A App</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1714696072/ia_app_ir4jmo.webp" alt="" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>Angular, Node.js (Express), Bootstrap</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p>Aplicación que mediante <strong>Inteligencia Artificial</strong> permite realizar estudios biblicos a partir de conceptos e ideas. <span
+                        ><a
+                        href="https://github.com/CarloAguirre/angular-gifs-app"
+                        target="_blank"
+                        ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
+                          ver codigo (frontend)
+                        </button></a
+                      ><a
+                          href="https://github.com/CarloAguirre/ia-server"
+                          target="_blank"
+                          ><button variant="outline-secondary" className='btn' type="button" class="btn btn-primary btn-sm mb-3 ms-2 button-cv">
+                            ver codigo (backend)
+                          </button></a
+                        ></span
+                      ></p>
+            </div>
+            <div className='btn-container'>
+                <Button variant="outline-secondary" className='btn' href='https://apostolicos.onrender.com/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button></div>
+            </div><br />
+            <hr /><br />
         
         <div className='desarrollo'>
             <div>
