@@ -190,6 +190,34 @@ export const Portafolio = () => {
             </div><br />
             <hr /><br />
 
+            <div className='desarrollo'>
+            <div>
+                <h4>Layout para local de cafe</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1715121797/cafe_qym3in.png" alt="layout local de cafe" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>HTML, CSS, Bootstrap, Grid, Media Queries</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p> Layout para el despliegue de sitio web de local de café. <span
+                        ><a
+                          href="https://github.com/CarloAguirre/tutoria_grid"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
+                            ver codigo
+                          </button></a
+                        ></span
+                      ></p>
+            </div>
+            <div className='btn-container'>
+                <Button variant="outline-secondary" className='btn' href='https://carloaguirre.github.io/tutoria_grid/' target='_blank'><div className='btn-custom'>ver sitio<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button></div>
+            </div><br />
+            <hr /><br />
+
 
             <div className='desarrollo'>
             <div>
