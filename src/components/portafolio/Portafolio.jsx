@@ -131,21 +131,21 @@ export const Portafolio = () => {
                   </span></div></Button></div>
             </div><br />
             <hr /><br />
-{/* 
+
             <div className='desarrollo'>
             <div>
-                <h4>Galería de imagenes</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1710263542/petgallery_sagi9p.webp" alt="" />
+                <h4>Portafolio de porgramador</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1715361668/2_d65x33.png" alt="imagen de desarrollo" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
-                <p>HTML5, CSS, Flexbox</p>
+                <p>ReactJS, SCSS</p>
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p>Sitio web desarrollado con flexbox para el despliegue de galerias de imagenes.<span
+                <p>Aplicación web desarrollada en React que permite el despliegue de información relacionada a formación, portafolio e histoial laboral. <span
                         ><a
-                          href="https://github.com/CarloAguirre/pet-gallery"
+                          href="https://github.com/CarloAguirre/carloaguirre.onrender.com"
                           target="_blank"
                           ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv button-cv">
                             ver codigo
@@ -154,11 +154,11 @@ export const Portafolio = () => {
                       ></p>
             </div>
             <div className='btn-container'>
-                <Button variant="outline-secondary" className='btn' href='https://petgallery.netlify.app/' target='_blank'><div className='btn-custom'>ver layout<span class="material-symbols-outlined ms-2">
+                <Button variant="outline-secondary" className='btn' href='https://carloaguirre.onrender.com/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
-            </div><br /> */}
-            {/* <hr /><br /> */}
+            </div><br />
+            <hr /><br />
 
             <div className='desarrollo'>
             <div>
