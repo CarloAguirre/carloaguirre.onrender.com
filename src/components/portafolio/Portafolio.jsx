@@ -42,7 +42,7 @@ export const Portafolio = () => {
         
         <div className='desarrollo'>
             <div>
-                <h4>Marketplace App</h4>
+                <h4>CRUD + Marketplace</h4>
                 <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1694277945/card_1_ggnfsg.webp" alt="" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
@@ -51,8 +51,7 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p>Aplicacion realizada en React.js + Node, consistente en un
-                  Marketplace de consolas de videojuegos retro. <span
+                <p>La aplicación incluye carrito y favoritos. Además, Permite crear, borrar/modificar usuarios y productos. <span
                         ><a
                         href="https://github.com/CarloAguirre/examen-desafio_latam"
                         target="_blank"
