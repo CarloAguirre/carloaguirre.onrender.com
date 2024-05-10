@@ -13,7 +13,7 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
-                <p>Angular, Node.js (Express), Bootstrap</p>
+                <p>Angular (TypeScript), Node.js (Express), Bootstrap</p>
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
