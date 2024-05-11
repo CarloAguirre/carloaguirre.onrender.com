@@ -5,6 +5,7 @@ body {
   /* letter-spacing: -.5px; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-display: swap;
 }
 
 code {

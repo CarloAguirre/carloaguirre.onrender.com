@@ -1,4 +1,5 @@
 /* IconCarouselComponent.css */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
 .icon-cards {
     position: relative;
@@ -283,6 +284,7 @@
     align-items: center;
     p{
       font-family: 'Amatic SC', sans-serif;
+      font-weight: 700;
 
     }
   }
