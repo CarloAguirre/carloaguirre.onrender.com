@@ -171,7 +171,7 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p> layout de sitio web para arriendo vacacional de
+                <p> Layout de sitio web para arriendo vacacional de
                       propiedades, desarrollado en HTML, CSSS y Bootstrap. <span
                         ><a
                           href="https://github.com/CarloAguirre/pagina-arriendos-bootstrap"
@@ -184,6 +184,35 @@ export const Portafolio = () => {
             </div>
             <div className='btn-container'>
                 <Button variant="outline-secondary" className='btn' href='https://carloaguirre.github.io/pagina-arriendos-bootstrap/' target='_blank'><div className='btn-custom'>ver sitio<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button></div>
+            </div><br />
+            <hr /><br />
+
+            <div className='desarrollo'>
+            <div>
+                <h4>Viedeojuego "Buscando a Wally"</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1715637211/Tu_e-commerce_en_linea_a_solo_un_click_gptks0.webp" alt="" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>HTML, CSS (KeyFrames)</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p> Sitio wen construido unicamente en HTML y CS,
+                      que mediante KeyFrames permite jugar en tiempo real. <span
+                        ><a
+                          href="https://github.com/CarloAguirre/wally"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
+                            ver codigo
+                          </button></a
+                        ></span
+                      ></p>
+            </div>
+            <div className='btn-container'>
+                <Button variant="outline-secondary" className='btn' href='https://carloaguirre.github.io/wally/' target='_blank'><div className='btn-custom'>ver sitio<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
             </div><br />
