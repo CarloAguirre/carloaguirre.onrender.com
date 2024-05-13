@@ -200,7 +200,7 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p> Sitio wen construido unicamente en HTML y CS,
+                <p> Sitio web construido unicamente en HTML y CSS,
                       que mediante KeyFrames permite jugar en tiempo real. <span
                         ><a
                           href="https://github.com/CarloAguirre/wally"
