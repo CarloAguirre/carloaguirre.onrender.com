@@ -191,7 +191,7 @@ export const Portafolio = () => {
 
             <div className='desarrollo'>
             <div>
-                <h4>Viedeojuego "Buscando a Wally"</h4>
+                <h4>Videojuego "Buscando a Wally"</h4>
                 <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1715637211/Tu_e-commerce_en_linea_a_solo_un_click_gptks0.webp" alt="" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
