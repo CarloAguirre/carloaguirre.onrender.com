@@ -10,7 +10,6 @@ export const Curriculum = () => {
             <br />
             <div>
                 <h4>HuellaSmart</h4>
-                <h5>Desarrollo de SPA para la gestión de ordenes/facturas mineras en Chile. www.AGI-Controls.cl</h5>
                 <br /> 
                 <p>FUNCIONES DEL CARGO:</p>
                 <br />
