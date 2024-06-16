@@ -5,6 +5,26 @@ export const Curriculum = () => {
     <div className='curriculum-wrapper'>
         <h1 className='mb-5'>Historial Laboral</h1>
         <div>
+            <h3>Programador Full Stack</h3>
+            <br />
+            <br />
+            <div>
+                <h4>HuellaSmart</h4>
+                <h5>Desarrollo de SPA para la gestión de ordenes/facturas mineras en Chile. www.AGI-Controls.cl</h5>
+                <br /> 
+                <p>FUNCIONES DEL CARGO:</p>
+                <br />
+                <p>-Re modelamientos de esquemas mediante AWS
+                    Amplify
+                    </p>
+                <br /> 
+                <p>-Diseño y desarrollo de Dashboard Grafico</p>
+                <br />          
+                <p>2024 - actualidad</p>
+            </div><br />
+            <hr /><br />
+        </div>
+        <div>
             <h3>Instructor FullStack Developer</h3>
             <br />
             <br />
@@ -115,67 +135,7 @@ export const Curriculum = () => {
             <hr /><br />
         </div>
         
-        <div>
-            <h3>Administración y atención de clientes</h3>
-            <br />
-            <br />
-            <div>
-                <h4>Savory</h4>
-                <h5>Administracion de punto de ventas Savory (Vicuña, La Serena)</h5>
-                <br /> 
-                <p>FUNCIONES DEL CARGO:</p>
-                <br />
-                <p>-Implementacion de software 'Punto de venta' </p>
-                <br /> 
-                <p>-Administración de personal y fiscal</p>
-                <br />
-                <p>-Atención esporadica de clientes</p>
-                <br />
-                <p>mar. 2018 - nov. 2019 · 1 año y 8 meses</p>
-            </div><br />
-            <hr /><br />
-        </div>
-        <div>
-            <h3>Técnico Agrícola</h3>
-            <br />
-            <br />
-            <div>
-                <h4>Autónomo</h4>
-                <h5>Labores agricolas varias.</h5>
-                <br /> 
-                <p>FUNCIONES DEL CARGO:</p>
-                <br />
-                <p>-Implementación de invernadero hidropónico </p>
-                <br /> 
-                <p>-Encargado de plantación de frutales (paltos, olivos
-                    y almendros), producción de Humus y Gallinero de
-                    Alta Postura </p>
-                <br />
-                <br />
-                <p>jul. 2016 - ene. 2022 · 5 años y 6 meses</p>
-            </div><br />
-            <hr /><br />
-        </div>
-        <div>
-            <h3>Atención de clientes</h3>
-            <br />
-            <br />
-            <div>
-                <h4>Local 'Llaves y Videos'</h4>
-                <h5>Atencion de clientes en punto de ventas (Supermercado Unimark, AV. Angamos, Antofagasta)</h5>
-                <br /> 
-                <p>FUNCIONES DEL CARGO:</p>
-                <br />
-                <p>-Atencion de clientes</p>
-                <br /> 
-                <p>-Cotrol de videoteca (DVD's)</p>
-                <br />
-                <p>-Manejo de equipos para la confección de llaves</p>
-                <br />
-                <p>jun 2013 - sep. 2013 · 4 meses</p>
-            </div><br />
-            <hr /><br />
-        </div>
+      
     </div>
   )
 }
