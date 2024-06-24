@@ -247,6 +247,8 @@
       gap: 20px; /* Espacio entre los elementos */
       justify-content: center; /* Centra los elementos horizontalmente */
       align-items: center; /* Centra los elementos verticalmente */
+      padding: 20px;
+      height: 250px;
     }
   }
   @media (max-width: 880px){
