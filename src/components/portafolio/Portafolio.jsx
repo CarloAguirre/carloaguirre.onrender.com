@@ -240,7 +240,7 @@ export const Portafolio = () => {
                       ></p>
             </div>
             <div className='btn-container'>
-                <Button variant="outline-secondary" className='btn' href='https://carloaguirre.github.io/tutoria_grid/' target='_blank'><div className='btn-custom'>ver sitio<span class="material-symbols-outlined ms-2">
+                <Button variant="outline-secondary" className='btn' href='https://book-storenow.netlify.app/' target='_blank'><div className='btn-custom'>ver sitio<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
             </div><br />
