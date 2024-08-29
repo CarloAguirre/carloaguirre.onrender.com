@@ -8,8 +8,28 @@ export const Portafolio = () => {
     <div className='desarrollos-container'>
     <div className='desarrollo'>
             <div>
-                <h4>I.A App</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1714696072/ia_app_ir4jmo.webp" alt="" />
+                <h4>Software Control de Emisiones</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1724946579/hs_gwnyfi.png" alt="imagen proyecto" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>Angular (TypeScript), AWS Services (S3, Amplify, Cognito, otros), ApexChart, Bootstrap</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p>Aplicación para la <strong>Gestion Ambiental</strong> desarrollada para proyecto CORFO HuellaSmart</p>
+            </div>
+            <div className='btn-container mt-2'>
+                <Button variant="outline-secondary" className='btn' href='https://apostolicos.onrender.com/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button></div>
+            </div><br />
+            <hr /><br />
+
+       <div className='desarrollo'>
+            <div>
+                <h4>BibleBot con I.A</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1714696072/ia_app_ir4jmo.webp" alt="imagen proyecto" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
@@ -43,7 +63,7 @@ export const Portafolio = () => {
         <div className='desarrollo'>
             <div>
                 <h4>CRUD + Marketplace</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1694277945/card_1_ggnfsg.webp" alt="" />
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1694277945/card_1_ggnfsg.webp" alt="imagen proyecto" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
@@ -77,7 +97,7 @@ export const Portafolio = () => {
             <div className='desarrollo'>
             <div>
                 <h4>Dashboard de Administración</h4>
-                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1671932168/card-10_kcz04a.webp" alt="" />
+                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1671932168/card-10_kcz04a.webp" alt="imagen proyecto" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
@@ -106,7 +126,7 @@ export const Portafolio = () => {
             <div className='desarrollo'>
             <div>
                 <h4>SPA React Pizza-App (layout)</h4>
-                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1683297482/card-6_db9xwy.webp" alt="" />
+                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1683297482/card-6_db9xwy.webp" alt="imagen proyecto" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
@@ -163,7 +183,7 @@ export const Portafolio = () => {
             <div className='desarrollo'>
             <div>
                 <h4>Pagina de arriendos tipo Airbnb</h4>
-                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1671664998/card-5_iriowi.webp" alt="" />
+                <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1671664998/card-5_iriowi.webp" alt="imagen proyecto" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
@@ -192,7 +212,7 @@ export const Portafolio = () => {
             <div className='desarrollo'>
             <div>
                 <h4>Videojuego "Buscando a Wally"</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1715637211/Tu_e-commerce_en_linea_a_solo_un_click_gptks0.webp" alt="" />
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1715637211/Tu_e-commerce_en_linea_a_solo_un_click_gptks0.webp" alt="imagen proyecto" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>

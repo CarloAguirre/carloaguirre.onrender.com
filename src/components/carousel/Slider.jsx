@@ -13,6 +13,7 @@ const IconCarouselComponent = () => {
   return (
   <div className='portafolio-wrapper'>
     <h1 className='h1'>Empresas que me han preferido</h1>
+    <div className='logos-container'>
   <div className='logos-wrapper'>
     <div className='logo_buenaaventura'>
       <img src="https://res.cloudinary.com/dubwhwd1w/image/upload/v1670111664/goat_jkfpoi.webp" alt="logo_cabra-del-valle" style={{backgroundColor: '#212529', padding:   '10px'}}/>
@@ -30,6 +31,7 @@ const IconCarouselComponent = () => {
     <div className='logo_buenaaventura'>
       <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1719268472/logo_sin_fondo_oe2bwj.png" alt="logo_huellasmart" style={{padding: '10px', minHeight: '40px', minWidth: '150px'}}/>
     </div>
+  </div>
   </div>
   <div className="checkbox">
         <input
