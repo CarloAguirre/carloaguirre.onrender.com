@@ -9,7 +9,7 @@ export const Portafolio = () => {
     <div className='desarrollo'>
             <div>
                 <h4>Software Control de Emisiones</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1724946579/hs_gwnyfi.webp" alt="imagen proyecto" />
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1724946579/hs_gwnyfi.webp" alt="imagen de proyecto" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
