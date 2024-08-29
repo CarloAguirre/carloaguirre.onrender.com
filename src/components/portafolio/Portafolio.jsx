@@ -9,7 +9,7 @@ export const Portafolio = () => {
     <div className='desarrollo'>
             <div>
                 <h4>Software Control de Emisiones</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1724946579/hs_gwnyfi.webp" alt="imagen de proyecto" />
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1724946579/hs_gwnyfi.webp" alt="imagen proyecto" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
@@ -20,7 +20,7 @@ export const Portafolio = () => {
                 <p>Aplicación para la <strong>Gestion Ambiental</strong> desarrollada para proyecto CORFO HuellaSmart</p>
             </div>
             <div className='btn-container mt-2'>
-                <Button variant="outline-secondary" className='btn' href='https://apostolicos.onrender.com/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
+                <Button variant="outline-secondary" className='btn' href='https://hs-software.netlify.app/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
                  open_in_new
                   </span></div></Button></div>
             </div><br />
