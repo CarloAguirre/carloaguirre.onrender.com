@@ -18,24 +18,28 @@ export const NavBar = () => {
           <Navbar.Collapse id="navbar-collapse" className="justify-content-end"> */}
           <Nav className="navBar-container"> 
             <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/" onClick={onMainSwitch} >
-              <span className="material-symbols-outlined" title='Inicio'>
+              {/* <span className="material-symbols-outlined" title='Inicio'>
                 home
-              </span> 
+              </span>  */}
+              <i class="fa-solid fa-house"></i> 
             </NavLink>
             <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/estudios" onClick={onMainSwitch}>
-              <span className="material-symbols-outlined" title='Formacion'>
+              {/* <span className="material-symbols-outlined" title='Formacion'>
                 school
-              </span>
+              </span> */}
+              <i class="fa-solid fa-graduation-cap"></i>
             </NavLink>
             <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/portafolio" onClick={onMainSwitch}>
-              <span className="material-symbols-outlined" title='Portafolio'>
+              {/* <span className="material-symbols-outlined" title='Portafolio'>
                 business_center
-              </span>
+              </span> */}
+              <i class="fa-solid fa-briefcase"></i>
             </NavLink>      
             <NavLink className={({isActive})=>(isActive ? "active-nav" : "navLink")} to="/curriculum" onClick={onMainSwitch}>
-              <span className="material-symbols-outlined" title='Historial laboral'>
+              {/* <span className="material-symbols-outlined" title='Historial laboral'>
                 badge
-              </span>
+              </span> */}
+              <i class="fa-solid fa-id-card-clip"></i>
             </NavLink> 
           </Nav>
         </Container>
