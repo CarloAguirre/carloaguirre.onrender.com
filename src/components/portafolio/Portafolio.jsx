@@ -8,6 +8,33 @@ export const Portafolio = () => {
     <div className='desarrollos-container'>
     <div className='desarrollo'>
             <div>
+                <h4>Diagrama de flujo Interactivo</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1724946579/flow_rcjmre.webp" alt="imagen proyecto" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>Angular (TypeScript), Konva.js</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p>Aplicación para la creación de diagramas de flujo mediante Drag&Drop y otras configuraciones. <span
+                        ><a
+                          href="https://github.com/CarloAguirre/flow-diagram"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
+                            ver codigo
+                          </button></a
+                        ></span
+                      ></p>
+            </div>
+            <div className='btn-container mt-2'>
+                <Button variant="outline-secondary" className='btn' href='https://flow-diagram.netlify.app/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button></div>
+            </div><br />
+            <hr /><br />
+    <div className='desarrollo'>
+            <div>
                 <h4>Software Control de Emisiones</h4>
                 <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1724946579/hs_gwnyfi.webp" alt="imagen proyecto" />
             </div>
@@ -17,7 +44,7 @@ export const Portafolio = () => {
             </div>
             <div className='portafolio-descripciones'>
                 <h5>Descripción</h5>
-                <p>Aplicación para la <strong>Gestion Ambiental</strong> desarrollada para proyecto CORFO HuellaSmart</p>
+                <p>Aplicación para la <strong>Gestion Ambiental</strong> desarrollada para proyecto CORFO HuellaSmart.</p>
             </div>
             <div className='btn-container mt-2'>
                 <Button variant="outline-secondary" className='btn' href='https://hs-software.netlify.app/' target='_blank'><div className='btn-custom'>ver app<span class="material-symbols-outlined ms-2">
