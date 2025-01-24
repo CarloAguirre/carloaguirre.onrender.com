@@ -6,6 +6,45 @@ export const Portafolio = () => {
     <div className='desarrollos-wrapper'>
       <h2 style={{textAlign: 'center'}}>Otros desarrollos</h2>
     <div className='desarrollos-container'>
+      
+    <div className='desarrollo'>
+            <div>
+                <h4>Landing Page para Preuniversitario</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1737729762/Tu_e-commerce_en_linea_a_solo_un_click_lbeb96.webp" alt="Landing Page de preuniversitario" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>HTML, CSS, JavaScript, Grid, Media Queries</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p>Landing Page para el despliegue de informacion y contacto de Preuniversitario Tecnologico. </p>
+            </div>
+            <div className='btn-container'>
+                <Button variant="outline-secondary" className='btn' href='https://juniority.cl/' target='_blank'><div className='btn-custom'>ver sitio<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button></div>
+            </div><br />
+            <hr /><br />
+            <div className='desarrollo'>
+            <div>
+                <h4>LMS para Preuniversitario</h4>
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1737730334/Tu_e-commerce_en_linea_a_solo_un_click_kfjepf.png" alt="Learning Management System de preuniversitario" />
+            </div>
+            <div className='portafolio-descripciones tecnologias-wrapper'>
+                <h5>Tecnologias</h5>
+                <p>HTML, CSS, PHP, Moodle</p>
+            </div>
+            <div className='portafolio-descripciones'>
+                <h5>Descripción</h5>
+                <p>Learning Management System para Preuniversitario Tecnologico, desarrollado con Moodle. </p>
+            </div>
+            <div className='btn-container'>
+                <Button variant="outline-secondary" className='btn' href='https://moodle.juniority.cl/' target='_blank'><div className='btn-custom'>ver sitio<span class="material-symbols-outlined ms-2">
+                 open_in_new
+                  </span></div></Button></div>
+            </div><br />
+            <hr /><br />
     <div className='desarrollo'>
             <div>
                 <h4>Diagrama de flujo Interactivo</h4>
@@ -292,35 +331,6 @@ export const Portafolio = () => {
                   </span></div></Button></div>
             </div><br />
             <hr /><br />
-
-            <div className='desarrollo'>
-            <div>
-                <h4>Layout para local de cafe</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1715121797/cafe_qym3in.png" alt="layout local de cafe" />
-            </div>
-            <div className='portafolio-descripciones tecnologias-wrapper'>
-                <h5>Tecnologias</h5>
-                <p>HTML, CSS, Bootstrap, Grid, Media Queries</p>
-            </div>
-            <div className='portafolio-descripciones'>
-                <h5>Descripción</h5>
-                <p>Layout para el despliegue de sitio web de local de café. <span
-                        ><a
-                          href="https://github.com/CarloAguirre/tutoria_grid"
-                          target="_blank"
-                          ><button type="button" class="btn btn-primary btn-sm mb-3 button-cv">
-                            ver codigo
-                          </button></a
-                        ></span
-                      ></p>
-            </div>
-            <div className='btn-container'>
-                <Button variant="outline-secondary" className='btn' href='https://carloaguirre.github.io/tutoria_grid/' target='_blank'><div className='btn-custom'>ver sitio<span class="material-symbols-outlined ms-2">
-                 open_in_new
-                  </span></div></Button></div>
-            </div><br />
-            <hr /><br />
-
 
             <div className='desarrollo'>
             <div>
