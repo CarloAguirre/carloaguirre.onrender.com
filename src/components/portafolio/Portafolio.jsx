@@ -29,7 +29,7 @@ export const Portafolio = () => {
             <div className='desarrollo'>
             <div>
                 <h4>LMS para Preuniversitario</h4>
-                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1737730334/Tu_e-commerce_en_linea_a_solo_un_click_kfjepf.png" alt="Learning Management System de preuniversitario" />
+                <img src="https://res.cloudinary.com/dezwpnks0/image/upload/v1737730334/Tu_e-commerce_en_linea_a_solo_un_click_kfjepf.webp" alt="Learning Management System de preuniversitario" />
             </div>
             <div className='portafolio-descripciones tecnologias-wrapper'>
                 <h5>Tecnologias</h5>
